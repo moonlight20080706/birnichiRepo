@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* font-family: "Alegreya", serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* font-family: "Josefin Sans", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* font-family: "Abril Fatface", serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 100px 0 200px;
+}
+header .head2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+header .head2 ul a{
+    color: #837171;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    font-family: "Alegreya", serif;
+}
+header .head2 ul a:hover{
+    color: #3A1212;
+    text-decoration: underline red;
+}
+.smile p:nth-child(1){
+    display: flex;
+    color: #FF2625;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.smile h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    color: #3A1212;
+    width: 472px;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.smile h1 + p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #504747;
+    width: 472px;
+    font-family: "Alegreya", serif;
+
+}
+.smile .btn button{
+    width: 200px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+    border-radius: 30px;
+    border: none;
+    font-family: "Alegreya", serif;
+
+}
+.smile .btn button:nth-child(1){
+    background-color: #FF2625;
+    color: #fff;
+}
+.smile .btn button:nth-child(2){
+    border: 2px solid #FF2625;   
+    margin-left: 20px;
+    background-color: #fff; 
+}
+.smile{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 100px 0 0 215px;
+    gap: 50px;
+}
+.z_index{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 658px;
+    height: 900px;
+}
+.our > p{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    color: #FF2625;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.our h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color: #3A1212;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+body{
+    background-color: #FFF3F4E5;
+}
+.program1{
+    width: 270px;
+    height: 280px;
+    border-radius: 0 0 0 35px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+.program{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+
+}
+.our{
+    margin: 400px 0 150px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.program1 > p{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #3A1212;
+    width: 88px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.icons {
+    margin: 30px 0 0 1200px;
+}
+.icons i:active{
+    font-size: 25px;
+    color: #FF2625;
+    cursor: pointer; 
+}
+.body1 img{
+    width: 566px;
+    height: 660px;
+}
+.body1 p:nth-child(1){
+    color: #FF2625;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.body1 h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 47px;
+    font-family: "Josefin Sans", sans-serif;
+    width: 483px;
+}
+.body1 h1 +p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    width: 502px;
+    font-family: "Alegreya", serif;
+}
+.body1 button{
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+    width: 200px;
+    height: 58px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FF2625;
+    margin-top: 20px;
+    color: #fff;
+}
+.body1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.active{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 200px 0;
+}
+.activ1 p:nth-child(1){
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FF2625;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.activ1 h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    color: #3A1212;
+    width: 494px;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.activ1 h1+p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    width: 502px;
+    font-family: "Alegreya", serif;
+}
+.activ1  button{
+    border: none;
+    border-radius: 30px;
+    background-color: #FF2625;
+    color: #fff;
+    width: 200px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    font-family: "Alegreya", serif;
+}
+.activ1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.meet >p{
+    color: #FF2625;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.meet h1{
+    color: #3A1212;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    font-family: "Josefin Sans", sans-serif;
+    width: 445px;
+    text-align: center;
+}
+.trainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+.tr1 img{
+    margin-top: 70px;
+    width: 246px;
+    height: 305px;
+}
+.train{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.meet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.train :nth-child(2){
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38px;
+    font-family: "Alegreya", serif;
+}
+.train :nth-child(3){
+    color: #504747;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.icons2{
+    margin-top: 630px;
+    position: absolute;
+}
+
+.client img{
+    position: absolute;
+    z-index: -1;
+    width: 500px;
+    height: 719px;
+    right: 900px;
+}
+.client > p{
+    color: #FF2625;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 40px;
+    margin-left: 300px;
+}
+.client h1{
+    font-weight: 700;
+    font-size: 44px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 57px;
+    color: #3A1212;
+    width: 370px;
+    margin-left: 300px;
+}
+.client > .div :nth-child(1){
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #504747;
+    font-family: "Josefin Sans", sans-serif;
+    width: 503px;
+}
+.client > .div :nth-child(2){
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #3A1212;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 40px;
+}
+.client > .div :nth-child(3){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #504747;
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 150px 0 100px 0 ;
+}
+.div{
+    background-color: #fff;
+    width: 624px;
+    height: 426px;
+    align-items: start;
+    justify-content: center;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 0 100px 0 0;
+    margin: 70px 0 0 180px;
+}
+.fitnes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+    gap: 20px;
+}
+.fitnes h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #3A1212;
+}
+.fitnes p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #504747;
+    text-align: center;
+    width: 633px;
+    font-family: "Alegreya", serif;
+}
+.input {
+    width: 632px;
+    height: 76px;
+    border-radius: 37px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.input input{
+    width: 300px;
+    height: 58px;
+    border: none;
+    outline: none;
+    text-indent: 40px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "Alegreya", serif;
+}
+.input button{
+    width: 170px;
+    height: 58px;
+    background-color: #FF2625;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "Alegreya", serif;
+    margin-right: 10px;
+}
+.icon3{
+    position: relative;
+    /* top: 800px; */
+    bottom: 90px;
+    right: 280px;
+}
+.foot1 i{
+    padding: 13px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #FF2625;
+    font-size: 20px;
+}
+.foot1 i:nth-child(4){
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FF2625;
+    color: #fff;
+}
+.foot1 span p{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    font-family: "Abril Fatface", serif;
+    font-style: italic;
+    margin-top: 20px;
+}
+.foot1 span{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.foot1 > p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    font-family: "Alegreya", serif;
+    width: 332px;
+    margin: 30px 0;
+}
+.foot2 > p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #3A1212;
+    padding: 30px 0;
+}
+.foot2 span p{
+    color: #504747;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 10px 0;
+}
+footer{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.p i{
+    color: red;
+}
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+}
+.p p{
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 14px;
+    color: #A69B9B;
+    font-family: "Circular Std Medium";
+}
